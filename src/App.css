@@ -7,11 +7,14 @@
 }
 
 body {
-  background: linear-gradient(
+  background-image: url("https://us.123rf.com/450wm/wernerimages/wernerimages1510/wernerimages151000176/46622253-alarm-clock-on-blue-table-with-to-do-list.jpg?ver=6");
+  /* background: linear-gradient(
     90deg,
-    rgba(48, 16, 255, 1) 0%,
+    rgb(89, 78, 163) 0%,
     rgba(100, 115, 255, 1) 100%
-  );
+  ); */
+  background-position: stretch;
+  /* background-size: cover; */
 }
 .todo-app {
   display: flex;
@@ -97,8 +100,8 @@ h1 {
   color: #fff;
   background: linear-gradient(
     90deg,
-    rgba(255, 118, 20, 1) 0%,
-    rgba(255, 84, 17, 1) 100%
+    rgb(241, 129, 0) 0%,
+    rgb(184, 88, 24) 100%
   );
 
   padding: 16px;
@@ -109,8 +112,8 @@ h1 {
 .todo-row:nth-child(4n + 1) {
   background: linear-gradient(
     90deg,
-    rgba(93, 12, 255, 1) 0%,
-    rgba(155, 0, 250, 1) 100%
+    rgb(12, 166, 255) 0%,
+    rgb(129, 0, 250) 100%
   );
 }
 
