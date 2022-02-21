@@ -8,13 +8,11 @@
 
 body {
   background-image: url("https://us.123rf.com/450wm/wernerimages/wernerimages1510/wernerimages151000176/46622253-alarm-clock-on-blue-table-with-to-do-list.jpg?ver=6");
-  /* background: linear-gradient(
+  background: linear-gradient(
     90deg,
-    rgb(89, 78, 163) 0%,
+    rgb(61, 111, 177) 0%,
     rgba(100, 115, 255, 1) 100%
-  ); */
-  background-position: stretch;
-  /* background-size: cover; */
+  );
 }
 .todo-app {
   display: flex;
